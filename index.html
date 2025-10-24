@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ستار جيم | تسجيل عضوية</title>
+  <link rel="stylesheet" href="star.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">ستار جيم 💪</h1>
+      <nav class="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="prices.html">الأسعار</a>
+        <a href="hours.html">المواعيد</a>
+        <a href="#form">سجّل عضويتك</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>ابدأ رحلتك نحو القوة في ستار جيم 🏋️‍♂️</h2>
+      <p>انضمّ إلينا وابدأ تدريبك مع أحدث الأجهزة وأفضل المدربين.</p>
+      <a class="btn" href="prices.html">شاهد الأسعار</a>
+      <a href="hours.html" class="btn">شاهد المواعيد</a>
+    </section>
+
+    <section id="about" class="about container">
+      <h3>عن ستار جيم</h3>
+      <p>ستار جيم هو مركز تدريب رجالي متكامل مجهّز بأحدث المعدات الرياضية.</p>
+      <p>هدفنا بناء القوة، وتحسين اللياقة البدنية، وتعزيز الثقة بالنفس.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 ستار جيم | جميع الحقوق محفوظة</p>
+  </footer>
+
+  <script>
+    function showMessage(e){
+      e.preventDefault();
+      document.getElementById('msg').textContent = 'تم تسجيل عضويتك بنجاح! 🎉';
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>
